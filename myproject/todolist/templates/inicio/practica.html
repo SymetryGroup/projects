@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% if title %}
+    <title>Todolist - {{ titulo }}</title>
+    {%else%}
+    <title>Todolist</title>
+    {% endif%}
+</head>
+<body>
+    <h1>{{data.titulo}}</h1>
+    <p> {{data.fecha}}</p>
+    <p>{{data.desc}}</p>
+</body>
+</html>
